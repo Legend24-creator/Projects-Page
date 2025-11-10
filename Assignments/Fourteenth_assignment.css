@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site {
+    background-color: rgb(155, 155, 204);
+    height: 100vh;
+}
+
+.quotes >h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #355263;
+    padding: 50px;
+}
+.nav-tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.nav-top a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.body-tab{
+    margin: 50px;
+    padding: 50px;
+    background-color: #5852aa;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+.next_btn {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 70px;
+    margin-left: 5px;
+    border-radius: 15px;
+    width: 100px;
+    background-color: #427fc5;
+    border: none;
+    align-items: left;
+    justify-items: left;
+    color: navy;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* .icon {
+    margin: auto;
+    padding: auto;
+    
+} */
+.advice_text{
+color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 40px;
+
+}
+
+
+
